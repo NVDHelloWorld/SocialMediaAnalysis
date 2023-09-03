@@ -1,0 +1,30 @@
+# Social Media Analysis
+
+This repository contains a Python script for social media analysis on a CSV dataset. It performs sentiment analysis and user engagement analysis, visualizing the results using Pandas, TextBlob, and Matplotlib.
+
+## Description
+
+### Overview
+
+This Python script is designed for social media data analysis. It covers the following key aspects:
+
+- **Data Loading**: It loads a CSV dataset into a Pandas DataFrame.
+- **Data Preprocessing**: Text data in the 'Post Text' column is converted to lowercase for consistent analysis.
+- **Sentiment Analysis**: The script uses TextBlob to analyze the sentiment polarity of the text in the 'Post Text' column and adds sentiment scores to the DataFrame.
+- **User Engagement Analysis**: The script calculates the total engagement for each post by summing the values of 'Likes/Reactions,' 'Shares/Retweets,' and 'Comments' columns, creating a new 'total_engagement' column.
+- **Interactive Filtering**: Users can interactively filter data based on sentiment polarity using predefined ranges.
+- **Data Visualization**: Sentiment analysis and user engagement analysis are visualized using Matplotlib.
+
+### Prerequisites
+
+Before running the script, make sure you have the following dependencies installed:
+
+- Python 3.x
+- Pandas
+- TextBlob
+- Matplotlib
+
+You can install these dependencies using pip:
+
+```bash
+pip install pandas textblob matplotlib
